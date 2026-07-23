@@ -15,7 +15,7 @@ from aws_cdk import (
 )
 from constructs import Construct
 
-AGENT_SPACE_ID = "1idud5y79e1zhhecnwl5klok"
+AGENT_SPACE_ID = "your agent spaceid" # 您自己的AgentSpaceId
 FINOPS_REGION = "us-east-1"
 
 # Lambda 打包项目根，使 `src` 作为包存在（源码用 from src.xxx 绝对导入）；
